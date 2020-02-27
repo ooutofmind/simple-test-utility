@@ -1,0 +1,11 @@
+.question-card.empty{
+	background-color: #00abff4f;
+}
+
+.question-card.passed{
+	background-color: #79de7d57;
+}
+
+.question-card.failed{
+	background-color: #ff000030;
+}
