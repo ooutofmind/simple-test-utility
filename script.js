@@ -29,7 +29,9 @@ function createQuestionEl(question) {
 
 function createAnswerEl(answer) {
 	var answerEl = document.createElement('div');
-	answerEl.innerHTML = 'Answer is: ' + answer;
+	answerEl.setAttribute('hidden', 'true');
+	answerEl.innerHTML = 'Correct answer is: ' + answer;
+	answerEl.classList.add('answer');
 	return answerEl;
 }
 
@@ -72,6 +74,10 @@ function getAllQuestionCards(container) {
 	return container.querySelectorAll('div.question-card');
 }
 
+function getAnswerEl(cardEl) {
+	return cardEl.querySelector('div.answer');
+}
+
 document.correctAnswers = {};
 var container = document.getElementById('main_container');
 for (var i = 0; i < document.rawData.length; i++) {
@@ -96,13 +102,21 @@ evaluateButton.addEventListener('click', ()=> {
 		}
 
 		res = res.join(',');
-		
+
 		card.classList.remove('empty');
 		card.classList.remove('passed');
 		card.classList.remove('failed');
 
 		let className = '' === res ? 'empty' : document.correctAnswers[i] === res ? 'passed' : 'failed';
 		card.classList.add(className);
+
+		let answerEl = getAnswerEl(card);
+		if(className === 'failed') {
+			answerEl.removeAttribute('hidden');
+		} else {
+			answerEl.setAttribute('hidden', 'true');
+		}
+		
 	}
 });
 container.appendChild(evaluateButton);
