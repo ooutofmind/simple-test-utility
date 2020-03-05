@@ -38,7 +38,7 @@ function getQuestionText(card) {
 function getAnswerOptions(card) {
 	let result = [];
 	let answers = card.querySelectorAll('li');
-	for (let i = 0; i < answers.length - 1; i++) {
+	for (let i = 0; i < answers.length; i++) {
 		let anwer = answers[i];
 		let encoded = encodeAnswerOption(anwer);
 		result.push(encoded);
