@@ -68,6 +68,7 @@
             },
             updateAnswerState: function () {
                 this.isAnswerHidden = this.stateClass === CARD_STATE.NOT_ANSWERED;
+
                 this.$emit('answer-update', this.stateClass);
             }
         }

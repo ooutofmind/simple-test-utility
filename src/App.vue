@@ -1,9 +1,11 @@
 <template>
     <div id="app">
-        <div :class="{outerCard: true}" v-for="(card, index) in questions" v-bind:key="card.title">
-            <QuestionCard :cardData="card" :questionNumber="index + 1"/>
+        <div class="stats">Correctrly answered questions: <strong>{{percentage}}%</strong> | Unanswered questions: <strong>{{unAnsweredQuestions}}</strong></div>
+        <div class="cardsContainer">
+            <div :class="{outerCard: true}" v-for="(card, index) in questions" v-bind:key="card.title">
+                <QuestionCard :cardData="card" :questionNumber="index + 1" @stats-update="updateStats($event)"/>
+            </div>
         </div>
-        <button v-on:click="evaluate">Evaluate</button>
     </div>
 </template>
 
@@ -47,12 +49,24 @@
             shuffle(testData);
 
             return {
-                questions: testData
+                questions: testData,
+                answeredCorrect: 0,
+                unAnsweredQuestions: testData.length
+            }
+        },
+        computed: {
+            percentage: function () {
+                let rate = (this.answeredCorrect * 100) / testData.length;
+                return Math.round((rate + Number.EPSILON) * 100) / 100;
             }
         },
         methods: {
-            evaluate: function () {
+            updateStats: function (passed) {
+                --this.unAnsweredQuestions;
 
+                if(passed) {
+                    ++this.answeredCorrect;
+                }
             }
         }
     }
@@ -67,9 +81,25 @@
         color: #2c3e50;
     }
 
+    .cardsContainer {
+        margin-top: 30px;
+    }
+
     .outerCard {
         width: 70%;
         display: inline-block;
         margin: 5px;
+    }
+
+    .stats {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 999;
+        width: 100%;
+        background: #8afbd5bd;
+        padding: 6px;
+        border: none;
+        border-bottom: 2px solid #51ffc58f;
     }
 </style>

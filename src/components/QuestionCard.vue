@@ -25,6 +25,8 @@
         methods: {
             updateAnswer: function (stateClass) {
                 this.stateClass = stateClass;
+
+                this.$emit('stats-update', this.stateClass  === 'passed');
             }
         },
     }
