@@ -1,6 +1,7 @@
 <template>
     <div id="app">
-        <div class="stats">Correctrly answered questions: <strong>{{percentage}}%</strong> | Unanswered questions: <strong>{{unAnsweredQuestions}}</strong></div>
+        <div class="stats">Correctrly answered questions: <strong>{{percentage}}%</strong> | Unanswered questions:
+            <strong>{{unAnsweredQuestions}}</strong></div>
         <div class="cardsContainer">
             <div :class="{outerCard: true}" v-for="(card, index) in questions" v-bind:key="card.title">
                 <QuestionCard :cardData="card" :questionNumber="index + 1" @stats-update="updateStats($event)"/>
@@ -61,10 +62,12 @@
             }
         },
         methods: {
-            updateStats: function (passed) {
-                --this.unAnsweredQuestions;
+            updateStats: function (state) {
+                if (state !== 'not-answered') {
+                    --this.unAnsweredQuestions;
+                }
 
-                if(passed) {
+                if (state === 'passed') {
                     ++this.answeredCorrect;
                 }
             }
