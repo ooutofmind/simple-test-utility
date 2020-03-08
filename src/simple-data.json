@@ -1,0 +1,50 @@
+[
+  {
+    "title": "1",
+    "answer": "A",
+    "questionText": "A feature Pack has been applied to a Content Platform Engine (CPE). What must be done once the Feature Pack has been installed?",
+    "explanation": "http://delivery04.dhe.ibm.com/sar/CMA/IMA/0487n/1/readme_5202_P8CPE_IF003.htm",
+    "answerOptions": [
+      "A.The CPE application must be restarted.",
+      "B.Nothing, does not affect CPE deployment.",
+      "C.The CPE archive file needs to be redeployed.",
+      "D.The jvm, hosting the CPE, must be restarted."
+    ]
+  },
+  {
+    "title": "2",
+    "answer": "D",
+    "questionText": "An IBM FileNet Content Manager administrator is having issues with a system and needs to examine the log files to troubleshoot the issues. In which directory on the Content Platform Engine server will the sample log4j client and server configuration files log4j.properties.server be found?",
+    "explanation": "https://www-304.ibm.com/support/knowledgecenter/SSNW2F_5.2.1/com.ibm.p8.ce.dev.ce.doc/logging_procedures.htm?cp=SSNW2F_5.2.1%2F10-2-1-29-8",
+    "answerOptions": [
+      "A. FileNet\\Config",
+      "B. FileNet\\ContentEngine\\config",
+      "C. FileNet\\ContentEngine\\samples",
+      "D. FileNet\\Content Engine\\config\\samples"
+    ]
+  },
+  {
+    "title": "3",
+    "answer": "C",
+    "questionText": "After installing and configuring IBM Content Search Services, a specialist submits a test index job and monitors the job status using the Index Jobs Management tool in Administration Console for Content Platform Engine. After several minutes, the job status does not indicate progress. Which log file is most likely NOT to contain useful information for resolving this problem?",
+    "explanation": "https://www.ibm.com/support/knowledgecenter/SSNW2F_5.2.1/com.ibm.p8.install.doc/p8pup655.htm",
+    "answerOptions": [
+      "A. IBM Content Search Services log files.",
+      "B. The p8_server_error.log file on the Content Platform Engine server.",
+      "C. The application server log files on the IBM Content Navigator server.",
+      "D. The application server log files on the Content Platform Engine server."
+    ]
+  },
+  {
+    "title": "4",
+    "answer": "С",
+    "questionText": "The system administrator for a large IBM FileNet Content Manager installation is seeing errors in the P8 error log during high volume times. The error is as follows on an IBM WebSphere Application Server V7: Root Exception message:CORBA NO_RESPONSE 0x4942fb01 Maybe; nested exception is: org.omg.CORBA.NO_RESPONSE: Request 15 timed out vmcid: IBM minor code: B01 completed: Maybe Connection not available while invoking method createOrWaitForConnection for resource [DATASOURCE_NAME] What can the system administrator do to correct the error?",
+    "explanation": "https://www.ibm.com/support/knowledgecenter/SSNW2F_5.1.0/com.ibm.p8.ce.trouble.doc/p8pct018.htm",
+    "answerOptions": [
+      "A. Adjust the Fixed Content Device retention parameters.",
+      "B. Modify the Content Engine Web Service Transport (CEWS).",
+      "C. Increase the maximum connections for the JDBC connection pool.",
+      "D. Adjust the Lightweight Third Party Authentication (LTPA) parameters."
+    ]
+  }
+]
