@@ -1,7 +1,10 @@
 <template>
     <div id="app">
-        <div class="stats">Correctrly answered questions: <strong>{{percentage}}%</strong> | Unanswered questions:
-            <strong>{{unAnsweredQuestions}}</strong></div>
+        <div class="statsOuter">
+            <div class="stats">Correctrly answered questions: <strong>{{percentage}}%</strong> | Unanswered questions:
+                <strong>{{unAnsweredQuestions}}</strong></div>
+        </div>
+
         <div class="cardsContainer">
             <div :class="{outerCard: true}" v-for="(card, index) in questions" v-bind:key="card.title">
                 <QuestionCard :cardData="card" :questionNumber="index + 1" @stats-update="updateStats($event)"/>
@@ -108,15 +111,19 @@
         margin: 5px;
     }
 
-    .stats {
+    .statsOuter {
         position: fixed;
         top: 0;
         left: 0;
         z-index: 999;
         width: 100%;
+        background: #ffffff;
+    }
+
+    .stats {
         background: #8afbd5bd;
-        padding: 6px;
         border: none;
         border-bottom: 2px solid #51ffc58f;
+        padding: 6px;
     }
 </style>
