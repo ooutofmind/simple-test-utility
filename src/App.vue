@@ -6,8 +6,6 @@
         </div>
 
         <div class="cardsContainer">
-            <h1>IBM FileNet Content Manager V5.2</h1>
-            <h3>C2070-981</h3>
             <div class="outerCard" v-for="(card, index) in questions" v-bind:key="card.title">
                 <QuestionCard :cardData="card" :questionNumber="index + 1" @stats-update="updateStats($event)"/>
             </div>
