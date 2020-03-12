@@ -67,7 +67,7 @@
         margin-top: 10px;
     }
 
-    .questionCard a, p, button {
+    .questionCard a, .questionCard p, .questionCard button {
         margin-left: 10px;
         margin-right: 10px;
     }
