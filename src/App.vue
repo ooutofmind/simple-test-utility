@@ -1,11 +1,13 @@
 <template>
     <div id="app">
-        <div class="statsOuter">
-            <div class="stats">Correctrly answered questions: <strong>{{percentage}}%</strong> | Unanswered questions:
+        <LoginPage v-if="!authenticated" @authenticated="updateAuthenticated"></LoginPage>
+
+        <div v-if="authenticated" class="statsOuter">
+            <div class="stats">Correctly answered questions: <strong>{{percentage}}%</strong> | Unanswered questions:
                 <strong>{{unAnsweredQuestions}}</strong></div>
         </div>
 
-        <div class="cardsContainer">
+        <div v-if="authenticated" class="cardsContainer">
             <div class="outerCard" v-for="(card, index) in questions" v-bind:key="card.title">
                 <QuestionCard :cardData="card" :questionNumber="index + 1" @stats-update="updateStats($event)"/>
             </div>
@@ -15,8 +17,9 @@
 
 
 <script>
-    import testData from './test-data-2'
+    import testData from './test-data-1'
     import QuestionCard from "./components/QuestionCard";
+    import LoginPage from "./components/LoginPage";
 
     var shuffle = function (a) {
         for (let i = a.length - 1; i > 0; i--) {
@@ -29,7 +32,10 @@
     export default {
         name: 'App',
         components: {
-            QuestionCard
+            QuestionCard, LoginPage
+        },
+        mounted() {
+            this.updateAuthenticated();
         },
         data: function () {
             for (let i = 0; i < testData.length; i++) {
@@ -69,7 +75,8 @@
             return {
                 questions: testData,
                 answeredCorrect: 0,
-                unAnsweredQuestions: testData.length
+                unAnsweredQuestions: testData.length,
+                authenticated: false
             }
         },
         computed: {
@@ -86,6 +93,16 @@
 
                 if (state === 'passed') {
                     ++this.answeredCorrect;
+                }
+            },
+            updateAuthenticated() {
+                if(!localStorage.authInfo) return false;
+
+                let authInfo = JSON.parse(localStorage.authInfo);
+                this.authenticated = authInfo.expires > Date.now();
+
+                if(!this.authenticated) {
+                    localStorage.removeItem('authInfo');
                 }
             }
         }
