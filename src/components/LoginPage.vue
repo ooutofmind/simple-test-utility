@@ -45,8 +45,10 @@
 
 <style>
     #login-panel {
-        margin: 40% 33% 0 33%;
+        margin-left: 33%;
+        margin-right: 33%;
         border: 1px solid #bbbaba;
+        border-radius: 3px;
         padding: 10px;
         background-color: #fffef5;
     }
