@@ -17,7 +17,7 @@
 
 
 <script>
-    import testData from './test-data-1'
+    import testData from './test-data'
     import QuestionCard from "./components/QuestionCard";
     import LoginPage from "./components/LoginPage";
 
@@ -35,43 +35,10 @@
             QuestionCard, LoginPage
         },
         mounted() {
+            this.prepareData();
             this.updateAuthenticated();
         },
         data: function () {
-            for (let i = 0; i < testData.length; i++) {
-                let item = testData[i];
-                let inputType = item.answer.indexOf(',') > -1 ? 'checkbox' : 'radio';
-
-                shuffle(item.answerOptions);
-
-                let answer = item.answer.split(',');
-                let newValue = [];
-
-                for (let j = 0; j < item.answerOptions.length; j++) {
-                    let answerOption = item.answerOptions[j];
-                    let index = answerOption.indexOf('.');
-                    let answerOptionValue = answerOption.substr(0, index);
-
-                    let answerOptionOrdinalValue = String.fromCharCode(65 + j);
-                    if(answer.indexOf(answerOptionValue) > -1) {
-                        newValue.push(answerOptionOrdinalValue);
-                    }
-
-                    let anserOptionText = answerOption.substr(index + 1, answerOption.length).trim();
-                    item.answerOptions[j] = {
-                        value: answerOptionOrdinalValue,
-                        text: anserOptionText,
-                        inputType: inputType,
-                        name: 'question-' + i
-                    }
-                }
-
-                newValue.sort();
-                item.answer = newValue.join(',');
-            }
-
-            shuffle(testData);
-
             return {
                 questions: testData,
                 answeredCorrect: 0,
@@ -86,6 +53,41 @@
             }
         },
         methods: {
+            prepareData() {
+                for (let i = 0; i < testData.length; i++) {
+                    let item = testData[i];
+                    let inputType = item.answer.indexOf(',') > -1 ? 'checkbox' : 'radio';
+
+                    shuffle(item.answerOptions);
+
+                    let answer = item.answer.split(',');
+                    let newValue = [];
+
+                    for (let j = 0; j < item.answerOptions.length; j++) {
+                        let answerOption = item.answerOptions[j];
+                        let index = answerOption.indexOf('.');
+                        let answerOptionValue = answerOption.substr(0, index);
+
+                        let answerOptionOrdinalValue = String.fromCharCode(65 + j);
+                        if(answer.indexOf(answerOptionValue) > -1) {
+                            newValue.push(answerOptionOrdinalValue);
+                        }
+
+                        let anserOptionText = answerOption.substr(index + 1, answerOption.length).trim();
+                        item.answerOptions[j] = {
+                            value: answerOptionOrdinalValue,
+                            text: anserOptionText,
+                            inputType: inputType,
+                            name: 'question-' + i
+                        }
+                    }
+
+                    newValue.sort();
+                    item.answer = newValue.join(',');
+                }
+
+                shuffle(testData);
+            },
             updateStats: function (state) {
                 if (state !== 'not-answered') {
                     --this.unAnsweredQuestions;
