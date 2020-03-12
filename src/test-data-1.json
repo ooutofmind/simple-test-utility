@@ -1,6 +1,5 @@
 [
   {
-    "title": "Question 1 (     title 1     )",
     "questionText": "A fixed storage area consists of what type of storage repository?",
     "answerOptions": [
       "A. A hierarchy of folders on a local device.",
@@ -11,7 +10,6 @@
     "answer": "C"
   },
   {
-    "title": "Question 2 (     title 1     )",
     "questionText": "Content Federation Services (CFS) provides a number of operations. Which operation is only available with IBM Content Integrator (CFS-ICI) with out-of-the-box tools?",
     "answerOptions": [
       "A. Move",
@@ -22,7 +20,6 @@
     "answer": "A"
   },
   {
-    "title": "Question 3 (     title 1     )",
     "questionText": "For which of the following components is it required to set session affinity (sticky session) on a load balancer?",
     "answerOptions": [
       "A. Content Engine.",
@@ -33,7 +30,6 @@
     "answer": "C"
   },
   {
-    "title": "Question 4 (     title 1     )",
     "questionText": "The Process Engine authenticates via which P8 component?",
     "answerOptions": [
       "A. Workplace XT.",
@@ -44,7 +40,6 @@
     "answer": "B"
   },
   {
-    "title": "Question 5 (     title 1     )",
     "questionText": "Which two of the following actions can be performed on a subclass? (choose two.)",
     "answerOptions": [
       "A. Remove an inherited custom property.",
@@ -56,7 +51,6 @@
     "answer": "B,D"
   },
   {
-    "title": "Question 6 (     title 1     )",
     "questionText": "In IBM Legacy Content Search Engine if a document does not have a property, or the value of the property is null, how the document indexed?",
     "answerOptions": [
       "A. The document is not indexed.",
@@ -67,7 +61,6 @@
     "answer": "C"
   },
   {
-    "title": "Question 7 (     title 1     )",
     "questionText": "Which one of the following Content Engine Client&#39;s will have better performance?",
     "answerOptions": [
       "A. CE Client using .NET API.",
@@ -78,7 +71,6 @@
     "answer": "C"
   },
   {
-    "title": "Question 8 (     title 1     )",
     "questionText": "Security Policies support what security management mechanism where security is applied to both versionable and non-versionable objects as the object transitions from one state to another?",
     "answerOptions": [
       "A. Marking Set Security.",
@@ -89,7 +81,6 @@
     "answer": "D"
   },
   {
-    "title": "Question 9 (     title 1     )",
     "questionText": "How can you start and stop P8 components?",
     "answerOptions": [
       "A. IBM FileNet Enterprise Manager.",
@@ -100,7 +91,6 @@
     "answer": "D"
   },
   {
-    "title": "Question 10 (     title 1     )",
     "questionText": "Which tool is used to create a connection point to an existing Process Engine isolated region?",
     "answerOptions": [
       "A. Workplace XT.",
@@ -111,7 +101,6 @@
     "answer": "C"
   },
   {
-    "title": "Question 11 (     title 1     )",
     "questionText": "The Process Engine service user (pe_service_user) is used by the Process Engine to connect to the Content Engine. What type of account should you create for the pe_service_user?",
     "answerOptions": [
       "A. Database account.",
@@ -122,7 +111,6 @@
     "answer": "B"
   },
   {
-    "title": "Question 12 (     title 1     )",
     "questionText": "The IBM FileNet Web Application Toolkit is part of which product?",
     "answerOptions": [
       "A. Workplace",
@@ -133,7 +121,6 @@
     "answer": "A"
   },
   {
-    "title": "Question 13 (     title 1     )",
     "questionText": "Which of the following actions can be performed within the query builder?",
     "answerOptions": [
       "A. Execute Java code.",
@@ -144,7 +131,6 @@
     "answer": "C"
   },
   {
-    "title": "Question 14 (     title 1     )",
     "questionText": "Which of the following is a valid reason for moving content into an encrypted storage area?",
     "answerOptions": [
       "A. To encrypt content that is currently unencrypted.",
@@ -155,7 +141,6 @@
     "answer": "A"
   },
   {
-    "title": "Question 15 (     title 1     )",
     "questionText": "Content Search Services Client files are installed on which of the following P8 servers?",
     "answerOptions": [
       "A. Content Engine.",
@@ -166,7 +151,6 @@
     "answer": "A"
   },
   {
-    "title": "Question 16 (     title 1     )",
     "questionText": "For a new Content Engine server, what information must be provided by the database administrator and recorded in the installation and upgrade worksheet?",
     "answerOptions": [
       "A. GCD and objectstore database names, database port numbers.",
@@ -177,7 +161,6 @@
     "answer": "D"
   },
   {
-    "title": "Question 17 (     title 1     )",
     "questionText": "Which P8 engine delegates authentication tasks to the Content Engine?",
     "answerOptions": [
       "A. Process Engine.",
@@ -188,7 +171,6 @@
     "answer": "A"
   },
   {
-    "title": "Question 18 (     title 1     )",
     "questionText": "The event subsystem is strongly related to which subsystem?",
     "answerOptions": [
       "A. Audit.",
@@ -199,7 +181,6 @@
     "answer": "A"
   },
   {
-    "title": "Question 19 (     title 1     )",
     "questionText": "For documents in which a date based property is a primary identifier, which type of partitioning will reduce query retrieval time?",
     "answerOptions": [
       "A. Date partitioning.",
@@ -210,7 +191,6 @@
     "answer": "D"
   },
   {
-    "title": "Question 20 (     title 1     )",
     "questionText": "When using the FileNet Enterprise Manager import manifest function, the \"Retry FailedImports\" option handles which one of the following situations?<br>",
     "answerOptions": [
       "A. A transient error has occurred, and the importer will continue trying until the import is successful.",
@@ -221,7 +201,6 @@
     "answer": "D"
   },
   {
-    "title": "Question 21 (     title 1     )",
     "questionText": "What type of user can create and modify the search criteria used in search templates?",
     "answerOptions": [
       "A. Any administrator.",
@@ -232,7 +211,6 @@
     "answer": "B"
   },
   {
-    "title": "Question 22 (     title 1     )",
     "questionText": "What are the two types of transport protocols supported by the Content Engine? (choose two.)",
     "answerOptions": [
       "A. .NET",
@@ -244,7 +222,6 @@
     "answer": "B,D"
   },
   {
-    "title": "Question 23 (     title 1     )",
     "questionText": "The Content Engine bootstrap account (ce_bootstrap_admin) is stored in theCEMPBoot.properties file that is archived in the Content Engine EAR file. What type of account should you use for the ce_bootstrap_admin?<br>",
     "answerOptions": [
       "A. Database account.",
@@ -255,7 +232,6 @@
     "answer": "B"
   },
   {
-    "title": "Question 24 (     title 1     )",
     "questionText": "Which of the following assets CANNOT be exported or imported by FileNet DeploymentManager?<br>",
     "answerOptions": [
       "A. Custom objects.",
@@ -266,7 +242,6 @@
     "answer": "D"
   },
   {
-    "title": "Question 25 (     title 1     )",
     "questionText": "Data replication for disaster recovery can be accomplished at the application, host, storage or network level. Which of the following statements describes replication at the storage level for a FileNet P8 system?",
     "answerOptions": [
       "A. Replication is configured and implemented by the FileNet P8 product.",
@@ -277,7 +252,6 @@
     "answer": "C"
   },
   {
-    "title": "Question 26 (     title 1     )",
     "questionText": "When using Workplace XT and a user is out of the office (e.g., vacation), where can they specify an alternate person to receive their Process Engine work items?",
     "answerOptions": [
       "A. Site Preferences.",
@@ -288,7 +262,6 @@
     "answer": "C"
   },
   {
-    "title": "Question 27 (     title 1     )",
     "questionText": "What is an event action?",
     "answerOptions": [
       "A. Is system defined.",
@@ -299,7 +272,6 @@
     "answer": "C"
   },
   {
-    "title": "Question 28 (     title 1     )",
     "questionText": "Which items are associated with a Content Engine site?",
     "answerOptions": [
       "A. Marking sets, storage areas and virtual servers.",
@@ -310,7 +282,6 @@
     "answer": "D"
   },
   {
-    "title": "Question 29 (     title 1     )",
     "questionText": "In a production environment a Process Engine client fix pack has been applied to theContent Engine. During fix pack install all the default options are selected. Which one of the following tasks needs to be done after the fix pack is installed?<br>",
     "answerOptions": [
       "A. Content Engine is not affected by PE client install.",
@@ -321,7 +292,6 @@
     "answer": "B"
   },
   {
-    "title": "Question 30 (     title 1     )",
     "questionText": "Which of the selections below may improve performance during high volume conditions?",
     "answerOptions": [
       "A. Adjust Fixed Content Device retention parameters.",
@@ -332,7 +302,6 @@
     "answer": "D"
   },
   {
-    "title": "Question 31 (     title 1     )",
     "questionText": "Which of the following is NOT a step in the FileNet Deployment Manager deployment process?",
     "answerOptions": [
       "A. Create a deploy dataset.",
@@ -343,7 +312,6 @@
     "answer": "D"
   },
   {
-    "title": "Question 32 (     title 1     )",
     "questionText": "P8 Content Federation Services (CFS) natively supports which two of the following configurations for federation? (choose two):",
     "answerOptions": [
       "A. SAP (CFS-SAP)",
@@ -355,7 +323,6 @@
     "answer": "C,E"
   },
   {
-    "title": "Question 33 (     title 1     )",
     "questionText": "To enable log4j logging in Workplace XT debugging, you will perform which of the following?",
     "answerOptions": [
       "A. Download and install log4j and configure with Workplace XT.",
@@ -366,7 +333,6 @@
     "answer": "D"
   },
   {
-    "title": "Question 34 (     title 1     )",
     "questionText": "What two services does the Content Engine supply? (choose two.)",
     "answerOptions": [
       "A. Content storage.",
@@ -378,7 +344,6 @@
     "answer": "A,C"
   },
   {
-    "title": "Question 35 (     title 1     )",
     "questionText": "Which of the following is true about the Directory configuration properties (User tab) -&gt;User Search Filter property?<br>",
     "answerOptions": [
       "A. The search filter must contain a clause with \"cn={0}\".",
@@ -389,7 +354,6 @@
     "answer": "D"
   },
   {
-    "title": "Question 36 (     title 1     )",
     "questionText": "In a High Availability environment for Content Engine, how should IBM FileNet EnterpriseManager be connected to the Content Engine server?<br>",
     "answerOptions": [
       "A. Using Enterprise JavaBeans (EJB) protocol for a specific node.",
@@ -400,7 +364,6 @@
     "answer": "C"
   },
   {
-    "title": "Question 37 (     title 1     )",
     "questionText": "What P8 domain level entity allows specific meta data attributes to be identified that control the effective access of an object in conjunction with the object&#39;s Access Control List (ACL)?",
     "answerOptions": [
       "A. Marking sets.",
@@ -411,7 +374,6 @@
     "answer": "A"
   },
   {
-    "title": "Question 38 (     title 1     )",
     "questionText": "When the Content Engine launches a workflow, it needs to communicate with which component?",
     "answerOptions": [
       "A. Workplace XT.",
@@ -422,7 +384,6 @@
     "answer": "C"
   },
   {
-    "title": "Question 39 (     title 1     )",
     "questionText": "In a Disaster Recovery implementation, the Content Engine bootstrapped Engine-ws.ear file is copied from a PRODUCTION environment to a DR environment for deployment.What is the reason for this?<br>",
     "answerOptions": [
       "A. It speeds up DR deployment.",
@@ -433,7 +394,6 @@
     "answer": "D"
   },
   {
-    "title": "Question 40 (     title 1     )",
     "questionText": "Consider the following distributed P8 configuration:",
     "answerOptions": [
       "A. Restore all files for server A from backup.",
@@ -444,7 +404,6 @@
     "answer": "B"
   },
   {
-    "title": "Question 41 (     title 1     )",
     "questionText": "What is the result when re-enabling content encryption on an Object Store?",
     "answerOptions": [
       "A. Existing content is encrypted.",
@@ -455,7 +414,6 @@
     "answer": "B"
   },
   {
-    "title": "Question 42 (     title 1     )",
     "questionText": "Which of the following statements about half maps is true?",
     "answerOptions": [
       "A. Half maps create a deploy dataset.",
@@ -466,7 +424,6 @@
     "answer": "C"
   },
   {
-    "title": "Question 43 (     title 1     )",
     "questionText": "When a property is added to a class, what is created?",
     "answerOptions": [
       "A. Choice list.",
@@ -477,7 +434,6 @@
     "answer": "C"
   },
   {
-    "title": "Question 44 (     title 1     )",
     "questionText": "What type of object has two pointers, one of which points to a single folder while the other points to a document or custom object?",
     "answerOptions": [
       "A. Reflective",
@@ -488,7 +444,6 @@
     "answer": "D"
   },
   {
-    "title": "Question 45 (     title 1     )",
     "questionText": "Component Manager hosts a component that can be used to execute certain content- related operations against the Content Engine. What is this component called?",
     "answerOptions": [
       "A. Event action.",
@@ -499,7 +454,6 @@
     "answer": "B"
   },
   {
-    "title": "Question 46 (     title 1     )",
     "questionText": "FileNet Configuration Manager offers only one JDBC connection for an object store by default. What are the two ways of adding additional JDBC connections for object stores.(choose two.)<br>",
     "answerOptions": [
       "A. It is not possible to create multiple JDBC data source.",
@@ -511,7 +465,6 @@
     "answer": "B,D"
   },
   {
-    "title": "Question 47 (     title 1     )",
     "questionText": "What is the Composite Platform Installation Tool?",
     "answerOptions": [
       "A. A tool that allows you to install P8 components only.",
@@ -522,7 +475,6 @@
     "answer": "D"
   },
   {
-    "title": "Question 48 (     title 1     )",
     "questionText": "In which directory on the Content Engine server will you find sample log4j client and server configuration files log4j.properties.and log4j.properties.server?",
     "answerOptions": [
       "A. FileNet\\Config.",
@@ -533,7 +485,6 @@
     "answer": "D"
   },
   {
-    "title": "Question 49 (     title 1     )",
     "questionText": "In which two scenarios should the Content Consistency Checker be used? (choose two.)",
     "answerOptions": [
       "A. Content Engine is performing slow.",
@@ -545,7 +496,6 @@
     "answer": "C,E"
   },
   {
-    "title": "Question 50 (     title 1     )",
     "questionText": "Why is it important for audit processing clients to use audit bookmarks?",
     "answerOptions": [
       "A. To mark important audit records for further investigation.",
@@ -556,7 +506,6 @@
     "answer": "D"
   },
   {
-    "title": "Question 51 (     title 1     )",
     "questionText": "High-availability concerns typically steer Application Engine deployments towards which two items? (choose two.)",
     "answerOptions": [
       "A. One dual-CPU system.",
@@ -568,7 +517,6 @@
     "answer": "B,D"
   },
   {
-    "title": "Question 52 (     title 1     )",
     "questionText": "If a user is a member of more than one access role, and the access roles have conflicting allow and deny access rights, which of the following will occur?",
     "answerOptions": [
       "A. The user is allowed access.",
@@ -579,7 +527,6 @@
     "answer": "A"
   },
   {
-    "title": "Question 53 (     title 1     )",
     "questionText": "Workplace XT hosts and manages a component that enables the Process Engine to make calls on external components. What is this component called?",
     "answerOptions": [
       "A. PEOperations",
@@ -590,7 +537,6 @@
     "answer": "C"
   },
   {
-    "title": "Question 54 (     title 1     )",
     "questionText": "Which of the following is NOT reported to IBM FileNet Dashboard?",
     "answerOptions": [
       "A. Remote procedure call counts and durations.",
@@ -601,7 +547,6 @@
     "answer": "B"
   },
   {
-    "title": "Question 55 (     title 1     )",
     "questionText": "To verify a file storage area, you log onto the machine where the Content Engine Server is installed and examine the contents of the file storage area directory. This directory should contain which of the following objects?",
     "answerOptions": [
       "A. Two subdirectories -- content and inbound",
@@ -612,7 +557,6 @@
     "answer": "C"
   },
   {
-    "title": "Question 56 (     title 1     )",
     "questionText": "A document entry template can be designed to allow end users to provide their own values for which of the following?",
     "answerOptions": [
       "A. Document properties and security settings.",
@@ -623,13 +567,11 @@
     "answer": "A"
   },
   {
-    "title": "Question 57 (     title 1     )",
     "questionText": "What value on the FileNet Enterprise Manager -&gt; Object Store&#39;s property dialog controls the amount of time a security entry remains in the security cache?A. GCD Cache TTL.<br>B. Object Security Cache Entry TTL.<br>C. Directory Service Cache Expiration.<br>D. Maximum Marking Set Cache Entries.<br>",
     "answerOptions": [],
     "answer": "B title 2, Volume B"
   },
   {
-    "title": "Question 58 (     title 2     )",
     "questionText": "If the following tree in a nested choice list is selected (Branch1 -&gt; Branch2 -&gt; Branch3 -&gt;Branch4), what is stored as the value: (assume the values below represent the actual values of the selections, not just the display value)?<br>",
     "answerOptions": [
       "A. Branch4",
@@ -640,7 +582,6 @@
     "answer": "A"
   },
   {
-    "title": "Question 59 (     title 2     )",
     "questionText": "Which two of the following indicators are only defined in a property template? (choose two.)",
     "answerOptions": [
       "A. Data type.",
@@ -652,7 +593,6 @@
     "answer": "A,B"
   },
   {
-    "title": "Question 60 (     title 2     )",
     "questionText": "A customer needs to change the logging level of the IBM Content Search Services server to determine the cause of an indexing failure.What are two different logging levels that can be set using the IBM Content Search<br>Services command-line administration tool?<br>",
     "answerOptions": [
       "A. Fatal",
@@ -664,7 +604,6 @@
     "answer": "B,E"
   },
   {
-    "title": "Question 61 (     title 2     )",
     "questionText": "What are two different logging levels that can be set using the IBM Content SearchServices command-line configuration tool? (choose two.)<br>",
     "answerOptions": [
       "A. Fatal",
@@ -676,7 +615,6 @@
     "answer": "B,E"
   },
   {
-    "title": "Question 62 (     title 2     )",
     "questionText": "Which two attributes can a file storage area have? (choose Two.)",
     "answerOptions": [
       "A. Can be a raw file system.",
@@ -688,7 +626,6 @@
     "answer": "B,C"
   },
   {
-    "title": "Question 63 (     title 2     )",
     "questionText": "Which user account is used by the Content Engine to establish a connection with the application server, access the application server&#39;s Java Naming and Directory Interface(JNDI) tree, look up the data sources for accessing the GCD, and start up Content Engine's background tasks?<br>",
     "answerOptions": [
       "A. GCD administrator account (gcd_admin).",
@@ -699,7 +636,6 @@
     "answer": "B"
   },
   {
-    "title": "Question 64 (     title 2     )",
     "questionText": "Which Content Engine table is used to query audit records?",
     "answerOptions": [
       "A. Event table.",
@@ -710,7 +646,6 @@
     "answer": "A"
   },
   {
-    "title": "Question 65 (     title 2     )",
     "questionText": "For a current production environment of Content Engine 4.5.1 and Process Engine 4.5.1 and a staged upgrade for only the Process Engine to 5.1 (Content Engine remains at4.5.1), which of the following P8 clients will have to be installed as part of the upgrade process?<br>",
     "answerOptions": [
       "A. Content Engine Client 5.1",
@@ -721,7 +656,6 @@
     "answer": "B"
   },
   {
-    "title": "Question 66 (     title 2     )",
     "questionText": "Which two of the following resource statuses can an offline storage area have?",
     "answerOptions": [
       "A. Full",
@@ -733,7 +667,6 @@
     "answer": "A,C"
   },
   {
-    "title": "Question 67 (     title 2     )",
     "questionText": "Which two statements describe content encryption? (choose two.)",
     "answerOptions": [
       "A. Content is decrypted at the client.",
@@ -745,7 +678,6 @@
     "answer": "B,C"
   },
   {
-    "title": "Question 68 (     title 2     )",
     "questionText": "When using Deployment Manager, after preparing P8 assets for deployment in the source environment, you need to create which one of the following?",
     "answerOptions": [
       "A. A set of source object bundles.",
@@ -756,7 +688,6 @@
     "answer": "B"
   },
   {
-    "title": "Question 69 (     title 2     )",
     "questionText": "A company plans to implement the out-of-the-box workflows provided with IBM FileNetContent Manager. The system administrator needs to configure this functionality In order to accomplish this, a workflow system needs to be configured.<br>Which of the following is a characteristic of a workflow system?<br>",
     "answerOptions": [
       "A. A workflow system is a collection of isolated regions.",
@@ -767,7 +698,6 @@
     "answer": "A"
   },
   {
-    "title": "Question 70 (     title 2     )",
     "questionText": "A company is building a solution and wants to restrict the choices for a field to choices defined by the design of the application.Which data type can be used when creating a choice list?<br>",
     "answerOptions": [
       "A. Float",
@@ -778,7 +708,6 @@
     "answer": "B"
   },
   {
-    "title": "Question 71 (     title 2     )",
     "questionText": "When you delete a storage area, which of the following two conditions apply? (choose two.)",
     "answerOptions": [
       "A. All storage policies using the storage area are also removed.",
@@ -790,7 +719,6 @@
     "answer": "B,D"
   },
   {
-    "title": "Question 72 (     title 2     )",
     "questionText": "A Content Platform Engine is reporting authentication errors in the trace logs.What should the system administrator first be concerned with?<br>",
     "answerOptions": [
       "A. Single Sign On (SSO)",
@@ -801,7 +729,6 @@
     "answer": "D"
   },
   {
-    "title": "Question 73 (     title 2     )",
     "questionText": "How can you optimize performance for large content uploads and downloads in a ContentEngine (CE) server farm?<br>",
     "answerOptions": [
       "A. Take advantage of file store replication.",
@@ -812,7 +739,6 @@
     "answer": "C"
   },
   {
-    "title": "Question 74 (     title 2     )",
     "questionText": "What middleware software needs to be installed prior to using the Composite PlatformInstallation Tool?<br>",
     "answerOptions": [
       "A. Database",
@@ -823,7 +749,6 @@
     "answer": "D"
   },
   {
-    "title": "Question 75 (     title 2     )",
     "questionText": "FileNet Process Engine allows you to tie XML web services interfaces into end-to-end processes, which can include and combine internal (front and back office) and external(partner or customer) processes. What is this known as?<br>",
     "answerOptions": [
       "A. Rules Integration",
@@ -834,7 +759,6 @@
     "answer": "D"
   },
   {
-    "title": "Question 76 (     title 2     )",
     "questionText": "While executing the Configure LDAP Task in the Configuration Manager tool, the specialist will test the connection.If the test connection fails, which two would the specialist troubleshoot?<br>",
     "answerOptions": [
       "A. Verify the JDBC datasource.",
@@ -846,7 +770,6 @@
     "answer": "B,D"
   },
   {
-    "title": "Question 77 (     title 2     )",
     "questionText": "The security administrator has created the Content Engine service user account and provided you the following ldif export information for the user:",
     "answerOptions": [
       "A. ceServiceUser",
@@ -857,7 +780,6 @@
     "answer": "D"
   },
   {
-    "title": "Question 78 (     title 2     )",
     "questionText": "What protocol does FileNet Enterprise Manager use to communicate to the ContentEngine?<br>",
     "answerOptions": [
       "A. Java Database Connectivity (JDBC).",
@@ -868,7 +790,6 @@
     "answer": "C"
   },
   {
-    "title": "Question 79 (     title 2     )",
     "questionText": "For a new Content Engine server, what tasks must be completed by a database administrator in the database prior to installing and configuring the Content Engine software?",
     "answerOptions": [
       "A. Create the GCD and objectstore databases.",
@@ -879,7 +800,6 @@
     "answer": "C"
   },
   {
-    "title": "Question 80 (     title 2     )",
     "questionText": "Which of the following identifies all of the available source-destination pair data maps?",
     "answerOptions": [
       "A. Property map, service map and user security map.",
@@ -890,7 +810,6 @@
     "answer": "D"
   },
   {
-    "title": "Question 81 (     title 2     )",
     "questionText": "An object valued property can be used to enforce which two of the following? (choose two.)",
     "answerOptions": [
       "A. Annotations.",
@@ -902,7 +821,6 @@
     "answer": "B,C"
   },
   {
-    "title": "Question 82 (     title 2     )",
     "questionText": "Which of the following IBM FileNet Components does NOT support the IBM FileNetDashboard?<br>",
     "answerOptions": [
       "A. IBM FileNet Business Process Manager.",
@@ -913,7 +831,6 @@
     "answer": "B"
   },
   {
-    "title": "Question 83 (     title 2     )",
     "questionText": "Which Workplace and WorkplaceXT Site Preferences setting allows for user information to be passed from one application to another to avoid having to log in again?",
     "answerOptions": [
       "A. WebDAV.",
@@ -924,7 +841,6 @@
     "answer": "B"
   },
   {
-    "title": "Question 84 (     title 2     )",
     "questionText": "What is the primary objective of the Content Engine security cache?",
     "answerOptions": [
       "A. To improve performance by caching directory provider entries on the Content Engine server.",
@@ -935,7 +851,6 @@
     "answer": "A"
   },
   {
-    "title": "Question 85 (     title 2     )",
     "questionText": "The FileNet Enterprise Manager export manifest function determines the number of XML output files based on which of the following criteria?",
     "answerOptions": [
       "A. The specified rollover size.",
@@ -946,7 +861,6 @@
     "answer": "B"
   },
   {
-    "title": "Question 86 (     title 2     )",
     "questionText": "What is the key concept to achieving high availability and avoiding a single point of failure?",
     "answerOptions": [
       "A. Auditing",
@@ -957,7 +871,6 @@
     "answer": "B"
   },
   {
-    "title": "Question 87 (     title 2     )",
     "questionText": "An administrator is planning the installation of an IBM FileNet Content Manager V5.2 system and is reviewing database requirements.Which one of the following is true?<br>",
     "answerOptions": [
       "A. It is required that there is a separate database for each object store.",
@@ -968,7 +881,6 @@
     "answer": "C"
   },
   {
-    "title": "Question 88 (     title 2     )",
     "questionText": "Consider the following distributed P8 configuration:All objectstores are configured to use file storage areas and content based retrieval (CBR).<br>A complete offline backup of the system runs daily at 10 PM. If a disk failure occurs at 2<br>PM on server C and all database files are lost, how should the administrator recover the system?<br>",
     "answerOptions": [
       "A. Restore database files to server C",
@@ -979,7 +891,6 @@
     "answer": "D"
   },
   {
-    "title": "Question 89 (     title 2     )",
     "questionText": "Where does the Content Engine store object metadata (including security)?",
     "answerOptions": [
       "A. LDAP",
@@ -990,7 +901,6 @@
     "answer": "B"
   },
   {
-    "title": "Question 90 (     title 2     )",
     "questionText": "What is a user implemented action that the Content Engine system performs when a document moves from one state to another called?",
     "answerOptions": [
       "A. Event action.",
@@ -1001,7 +911,6 @@
     "answer": "C"
   },
   {
-    "title": "Question 91 (     title 2     )",
     "questionText": "What component is hosted within Workplace/Workplace XT that enables the ProcessEngine to make calls to external components such as custom Java components, web services, or Java Message Service queues?<br>",
     "answerOptions": [
       "A. Component Manager",
@@ -1012,7 +921,6 @@
     "answer": "A"
   },
   {
-    "title": "Question 92 (     title 2     )",
     "questionText": "Which of the following content operations is NOT possible for the document content within an online storage area?",
     "answerOptions": [
       "A. Copy",
@@ -1023,7 +931,6 @@
     "answer": "A"
   },
   {
-    "title": "Question 93 (     title 2     )",
     "questionText": "If Content Engine is deployed on WebSphere and tracing is enabled in FileNet EnterpriseManager, in which default area and filename is the FileNet trace file located?<br>",
     "answerOptions": [
       "A. <WebSphere_profile>/logs/<server-name>/trace.log.",
@@ -1034,7 +941,6 @@
     "answer": "D"
   },
   {
-    "title": "Question 94 (     title 2     )",
     "questionText": "Document entry templates allow the designer to force values for which of the following items?",
     "answerOptions": [
       "A. Location, class, properties, and security.",
@@ -1045,7 +951,6 @@
     "answer": "A"
   },
   {
-    "title": "Question 95 (     title 2     )",
     "questionText": "The Content Engine supports Lightweight Directory Access Protocol (LDAP) failover for authorization with which directory service provider?",
     "answerOptions": [
       "A. CA Directory.",
@@ -1056,7 +961,6 @@
     "answer": "B"
   },
   {
-    "title": "Question 96 (     title 2     )",
     "questionText": "You are performing a P8 installation. The site has already configured WebSphere Security along with SSL. Which statement below, with reference to running the FileNetConfiguration Manager tool, is valid?<br>",
     "answerOptions": [
       "A. FileNet Configuration Manager with SSL is not supported.",
@@ -1067,7 +971,6 @@
     "answer": "D"
   },
   {
-    "title": "Question 97 (     title 2     )",
     "questionText": "What is the Content Engine domain hierarchy?",
     "answerOptions": [
       "A. domain > site > virtual server > server",
@@ -1078,7 +981,6 @@
     "answer": "A"
   },
   {
-    "title": "Question 98 (     title 2     )",
     "questionText": "How many database storage areas are allowed per object store?",
     "answerOptions": [
       "A. 1",
@@ -1089,7 +991,6 @@
     "answer": "A"
   },
   {
-    "title": "Question 99 (     title 2     )",
     "questionText": "When preparing to deploy a system using Deployment Manager, which one of the following files contains the list of assets to be exported?",
     "answerOptions": [
       "A. Half map.",
@@ -1100,7 +1001,6 @@
     "answer": "C"
   },
   {
-    "title": "Question 100 (     title 2     )",
     "questionText": "An index file can be accessed by how many index servers at a time?",
     "answerOptions": [
       "A. 1",
@@ -1111,7 +1011,6 @@
     "answer": "A"
   },
   {
-    "title": "Question 101 (     title 2     )",
     "questionText": "A Workplace XT application has just been updated with a new Fix Pack (FP).What must be done to the Content Platform Engine (CPE) in order to complete the FP installation?<br>",
     "answerOptions": [
       "A. The CPE must be redeployed.",
@@ -1122,7 +1021,6 @@
     "answer": "D"
   },
   {
-    "title": "Question 102 (     title 2     )",
     "questionText": "Which answer is a primary element of the Content Engine event framework?",
     "answerOptions": [
       "A. System event.",
@@ -1133,7 +1031,6 @@
     "answer": "B"
   },
   {
-    "title": "Question 103 (     title 2     )",
     "questionText": "Of the following statements about searches, which two are true? (choose two.)",
     "answerOptions": [
       "A. Stored searches are versionable documents.",
@@ -1145,7 +1042,6 @@
     "answer": "A,C"
   },
   {
-    "title": "Question 104 (     title 2     )",
     "questionText": "A developer is creating entry templates to make it easy to add documents, folders, and custom objects to an object store.Document entry templates allow the designer to force values for which of the following items?<br>",
     "answerOptions": [
       "A. Location, class, properties, and security",
@@ -1156,7 +1052,6 @@
     "answer": "A"
   },
   {
-    "title": "Question 105 (     title 2     )",
     "questionText": "What components need to be available for the Content Engine to start?",
     "answerOptions": [
       "A. Databases only.",
@@ -1167,7 +1062,6 @@
     "answer": "D"
   },
   {
-    "title": "Question 106 (     title 2     )",
     "questionText": "What type of object represents the discrete set of possible values that a property object can hold?",
     "answerOptions": [
       "A. Pick list.",
@@ -1178,7 +1072,6 @@
     "answer": "B"
   },
   {
-    "title": "Question 107 (     title 2     )",
     "questionText": "When an access control list of an object is modified, which type of security is computed when the object is next accessed?",
     "answerOptions": [
       "A. Direct.",
@@ -1189,7 +1082,6 @@
     "answer": "C"
   },
   {
-    "title": "Question 108 (     title 2     )",
     "questionText": "Indexing properties in the Content Engine objectstore database can improve the performance. In addition to the vendor supplied database tools, which FileNet tool can be used to create single-property indexes (unless the indexes are for a FileNet P8 system property)?",
     "answerOptions": [
       "A. IBM FileNet System Monitor.",
@@ -1200,7 +1092,6 @@
     "answer": "B"
   },
   {
-    "title": "Question 109 (     title 2     )",
     "questionText": "The Content Engine provides extensible security parent-child relationships by means of what type of property placed on the meta data of custom object-valued properties?",
     "answerOptions": [
       "A. Security Folder.",
@@ -1211,7 +1102,6 @@
     "answer": "D"
   },
   {
-    "title": "Question 110 (     title 2     )",
     "questionText": "A Content Search Services index is associated with which Content Engine object?",
     "answerOptions": [
       "A. Class",
@@ -1222,7 +1112,6 @@
     "answer": "C"
   },
   {
-    "title": "Question 111 (     title 2     )",
     "questionText": "What is the primary objective to be considered when implementing a disaster recovery solution for a FileNet P8 platform?",
     "answerOptions": [
       "A. Maintain data integrity for the GCD, objectstore databases, storage areas and index data in the event of a disk failure.",
@@ -1233,7 +1122,6 @@
     "answer": "D"
   },
   {
-    "title": "Question 112 (     title 2     )",
     "questionText": "What is the recommended approach for load balancing an Enterprise JavaBeans (EJB) transport of the Content Engine?",
     "answerOptions": [
       "A. Using a IBM http plugin.",
@@ -1244,7 +1132,6 @@
     "answer": "D"
   },
   {
-    "title": "Question 113 (     title 2     )",
     "questionText": "What are the two ways to enable Content Engine Java API log4j tracing for a client application? (choose two.)",
     "answerOptions": [
       "A. Enable trace logging in the FileNet Enterprise Manager.",
@@ -1256,7 +1143,6 @@
     "answer": "C,E"
   },
   {
-    "title": "Question 114 (     title 2     )",
     "questionText": "An IBM FileNet P8 system administrator needs to plan what user and group accounts will be used during installation and configuration of the FileNet P8 Content Platform Engine(CPE).<br>Which two of these statements is true about the cpe_bootstrap_admin account?<br>",
     "answerOptions": [
       "A. The cpe_bootstrap_admin account is a Directory Service account.",
@@ -1268,7 +1154,6 @@
     "answer": "A,C"
   },
   {
-    "title": "Question 115 (     title 2     )",
     "questionText": "The Content Engine sets a newly created storage area to what resource status?",
     "answerOptions": [
       "A. Open.",
@@ -1279,7 +1164,6 @@
     "answer": "A"
   },
   {
-    "title": "Question 116 (     title 2     )",
     "questionText": "Disaster Recovery (DR) planning includes establishing RPO (Recovery Point Objective) and RTO (Recovery Time Objective) values. What is RTO?",
     "answerOptions": [
       "A. The RTO is the amount of time it takes to start the DR servers.",
@@ -1290,7 +1174,6 @@
     "answer": "D"
   },
   {
-    "title": "Question 117 (     title 2     )",
     "questionText": "Which is the only supported transport protocol for the Content Engine .NET API?",
     "answerOptions": [
       "A. Enterprise Java Beans (EJB).",
@@ -1301,7 +1184,6 @@
     "answer": "C"
   },
   {
-    "title": "Question 118 (     title 2     )",
     "questionText": "For a new install of Content Engine, you have just completed the following steps:Which two of the following URLs would you use to validate the Content Engine deployment? (choose two.)<br>",
     "answerOptions": [
       "A. http://server:port /FileNet/Ping",
@@ -1313,7 +1195,6 @@
     "answer": "B,D"
   },
   {
-    "title": "Question 119 (     title 2     )",
     "questionText": "Custom Access Roles can be used in Workplace and Workplace XT to control a user access to which of the following?Custom Access Roles can be used in Workplace andWorkplace XT to control a user? access to which of the following?<br>",
     "answerOptions": [
       "A. Deny access to certain folders.",
@@ -1324,7 +1205,6 @@
     "answer": "C"
   },
   {
-    "title": "Question 120 (     title 2     )",
     "questionText": "When creating an Isolated Region, which tool is used to initialize the Isolated Region?",
     "answerOptions": [
       "A. Process Designer.",
@@ -1335,7 +1215,6 @@
     "answer": "D"
   },
   {
-    "title": "Question 121 (     title 2     )",
     "questionText": "Why would you horizontally scale Content Engine in a farm?",
     "answerOptions": [
       "A. A farm is required if you have over 500 users.",
@@ -1346,7 +1225,6 @@
     "answer": "B"
   },
   {
-    "title": "Question 122 (     title 2     )",
     "questionText": "A company has purchased an IBM FileNet Content Manager system to use as their enterprise content management repository. The system administrator is engaged in the planning phase of the FileNet Content Manager installation.How does the Content Platform Engine leverage directory service providers for authentication?<br>",
     "answerOptions": [
       "A. Content Platform Engine uses the Java EE application servers directory service providers for authentication.",
@@ -1357,7 +1235,6 @@
     "answer": "A"
   },
   {
-    "title": "Question 123 (     title 2     )",
     "questionText": "In which two of the following views can you run the FileNet Enterprise Manager query builder? (choose two.)",
     "answerOptions": [
       "A. SQL",
@@ -1369,7 +1246,6 @@
     "answer": "A,D"
   },
   {
-    "title": "Question 124 (     title 2     )",
     "questionText": "Before updating a Content Engine and process Engine with a fix pack, how will you verify the supported product versions?",
     "answerOptions": [
       "A. Plan and prepare guide.",
@@ -1380,7 +1256,6 @@
     "answer": "B"
   },
   {
-    "title": "Question 125 (     title 2     )",
     "questionText": "What contains a record of specific system or workflow related events that are useful for tracking workflow activity?",
     "answerOptions": [
       "A. PE Queues",
@@ -1391,7 +1266,6 @@
     "answer": "C"
   },
   {
-    "title": "Question 126 (     title 2     )",
     "questionText": "You should always run workflow subscriptions in what mode?",
     "answerOptions": [
       "A. Exclusive.",
@@ -1402,7 +1276,6 @@
     "answer": "D"
   },
   {
-    "title": "Question 127 (     title 2     )",
     "questionText": "The Content Consistency Checker is used to?",
     "answerOptions": [
       "A. Validate P8 systems.",
