@@ -12,7 +12,9 @@
                 <input type="password" v-model="password">
             </label>
         </p>
-        <button @click="login">Login</button>
+        <p>
+            <button @click="login">Login</button>
+        </p>
     </div>
 </template>
 
@@ -43,7 +45,10 @@
 
 <style>
     #login-panel {
-        margin-top: 40%;
+        margin: 40% 33% 0 33%;
+        border: 1px solid #bbbaba;
+        padding: 10px;
+        background-color: #fffef5;
     }
 
     #login-panel label {
