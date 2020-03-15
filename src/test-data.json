@@ -7,7 +7,8 @@
       "C. A staging area and a fixed content device.",
       "D. A hierarchy of folders on a shared network device."
     ],
-    "answer": "C"
+    "answer": "C",
+    "explanation": "https://www.ibm.com/developerworks/data/library/techarticle/dm-1003filenetstoragemanagement/index.html"
   },
   {
     "questionText": "Content Federation Services (CFS) provides a number of operations. Which operation is only available with IBM Content Integrator (CFS-ICI) with out-of-the-box tools?",
@@ -232,14 +233,15 @@
     "answer": "B"
   },
   {
-    "questionText": "Which of the following assets CANNOT be exported or imported by FileNet DeploymentManager?",
+    "questionText": "Which of the following assets CANNOT be exported or imported by FileNet Deployment Manager?",
     "answerOptions": [
       "A. Custom objects.",
       "B. Workplace stored searches.",
       "C. Workplace XT stored searches.",
       "D. FileNet Enterprise Manager saved searches."
     ],
-    "answer": "D"
+    "answer": "D",
+    "explanation": "https://www.ibm.com/support/knowledgecenter/SSNW2F_5.2.0/com.ibm.p8.common.deploy.doc/roadmap_asset_prepare.htm"
   },
   {
     "questionText": "Data replication for disaster recovery can be accomplished at the application, host, storage or network level. Which of the following statements describes replication at the storage level for a FileNet P8 system?",
@@ -280,16 +282,6 @@
       "D. Storage areas, content cache areas and virtual servers."
     ],
     "answer": "D"
-  },
-  {
-    "questionText": "In a production environment a Process Engine client fix pack has been applied to theContent Engine. During fix pack install all the default options are selected. Which one of the following tasks needs to be done after the fix pack is installed?",
-    "answerOptions": [
-      "A. Content Engine is not affected by PE client install.",
-      "B. Redeploy Content Engine Enterprise Archive (ear) file.",
-      "C. Stop and Start Content Engine after the fix pack install.",
-      "D. Rebuild and redeploy Content Engine Enterprise Archive (ear) file."
-    ],
-    "answer": "B"
   },
   {
     "questionText": "Which of the selections below may improve performance during high volume conditions?",
@@ -485,17 +477,6 @@
     "answer": "D"
   },
   {
-    "questionText": "In which two scenarios should the Content Consistency Checker be used? (choose two.)",
-    "answerOptions": [
-      "A. Content Engine is performing slow.",
-      "B. If search templates are not working.",
-      "C. After restoring a storage area from backup media.",
-      "D. To troubleshoot Fixed Content Device connectivity.",
-      "E. If users are unable to view the content of a document when the content is stored in a file storage area, even when they have view-content permissions on the document."
-    ],
-    "answer": "C,E"
-  },
-  {
     "questionText": "Why is it important for audit processing clients to use audit bookmarks?",
     "answerOptions": [
       "A. To mark important audit records for further investigation.",
@@ -524,7 +505,8 @@
       "C. The access will be determine by the object store access.",
       "D. The user is allowed only if they are a member of one of the default access roles."
     ],
-    "answer": "A"
+    "answer": "A",
+    "explanation": "https://www.ibm.com/support/knowledgecenter/SSNW2F_5.2.0/com.ibm.p8.xt.user.doc/ae_help/siteprefs/WcmSitePreferences_PrefAccessRolesInfoPage.htm"
   },
   {
     "questionText": "Workplace XT hosts and manages a component that enables the Process Engine to make calls on external components. What is this component called?",
@@ -664,7 +646,8 @@
       "D. Disabled",
       "E. Reserved"
     ],
-    "answer": "A,C"
+    "answer": "A,C",
+    "explanation": "https://www.ibm.com/support/knowledgecenter/SSNW2F_5.2.0/com.ibm.p8.ce.admin.tasks.doc/contentstores/cs_resource_statuses.htm"
   },
   {
     "questionText": "Which two statements describe content encryption? (choose two.)",
@@ -685,7 +668,8 @@
       "C. A set of custom property conversion maps.",
       "D. An export manifest of property information in the target system."
     ],
-    "answer": "B"
+    "answer": "B",
+    "explanation": "https://www.ibm.com/support/knowledgecenter/SSNW2F_5.2.0/com.ibm.p8.common.deploy.doc/overview_intro.htm?pos=2"
   },
   {
     "questionText": "A company plans to implement the out-of-the-box workflows provided with IBM FileNetContent Manager. The system administrator needs to configure this functionality In order to accomplish this, a workflow system needs to be configured.Which of the following is a characteristic of a workflow system?",
@@ -716,7 +700,8 @@
       "D. The storage area can only be deleted once no classes list this in their storage policy.",
       "E. Document classes that do not have an alternate storage area are automatically deleted."
     ],
-    "answer": "B,D"
+    "answer": "B,D",
+    "explanation": "https://www.ibm.com/support/knowledgecenter/SSNW2F_5.2.0/com.ibm.p8.ce.admin.tasks.doc/contentstores/cs_delete_a_file_store.htm"
   },
   {
     "questionText": "A Content Platform Engine is reporting authentication errors in the trace logs.What should the system administrator first be concerned with?",
@@ -786,16 +771,6 @@
       "B. Java API over the web services (HTTP) interface.",
       "C. .NET API over the web services (HTTP) interface.",
       "D. Java API over Internet Inter Operable Protocol (IIOP)."
-    ],
-    "answer": "C"
-  },
-  {
-    "questionText": "For a new Content Engine server, what tasks must be completed by a database administrator in the database prior to installing and configuring the Content Engine software?",
-    "answerOptions": [
-      "A. Create the GCD and objectstore databases.",
-      "B. Create the GCD and objectstore database user accounts.",
-      "C. Create the GCD and objectstore databases and database user accounts.",
-      "D. Create the GCD and objectstore databases, data sources and database user accounts."
     ],
     "answer": "C"
   },
@@ -901,16 +876,6 @@
     "answer": "B"
   },
   {
-    "questionText": "What is a user implemented action that the Content Engine system performs when a document moves from one state to another called?",
-    "answerOptions": [
-      "A. Event action.",
-      "B. Publish action.",
-      "C. Lifecycle action.",
-      "D. Versioning action."
-    ],
-    "answer": "C"
-  },
-  {
     "questionText": "What component is hosted within Workplace/Workplace XT that enables the ProcessEngine to make calls to external components such as custom Java components, web services, or Java Message Service queues?",
     "answerOptions": [
       "A. Component Manager",
@@ -928,7 +893,8 @@
       "C. Create",
       "D. Append"
     ],
-    "answer": "A"
+    "answer": "A",
+    "explanation": "https://www.ibm.com/support/knowledgecenter/SSNW2F_5.2.0/com.ibm.p8.ce.admin.tasks.doc/contentstores/cs_resource_statuses.htm"
   },
   {
     "questionText": "If Content Engine is deployed on WebSphere and tracing is enabled in FileNet EnterpriseManager, in which default area and filename is the FileNet trace file located?",
@@ -948,7 +914,8 @@
       "C. Location, class, security, but not properties.",
       "D. Location, class, properties, but not security."
     ],
-    "answer": "A"
+    "answer": "A",
+    "explanation": "https://www.ibm.com/support/knowledgecenter/SSNW2F_5.2.0/com.ibm.p8.doc/ae_help/entry/et_about_et_designer.htm"
   },
   {
     "questionText": "The Content Engine supports Lightweight Directory Access Protocol (LDAP) failover for authorization with which directory service provider?",
@@ -998,7 +965,8 @@
       "C. Export manifest.",
       "D. Deployment dataset."
     ],
-    "answer": "C"
+    "answer": "C",
+    "explanation": "https://www.ibm.com/support/knowledgecenter/SSNW2F_5.2.0/com.ibm.p8.common.deploy.doc/overview_intro.htm?pos=2"
   },
   {
     "questionText": "An index file can be accessed by how many index servers at a time?",
@@ -1151,7 +1119,8 @@
       "D. The cpe_bootstrap_admin account is able to create, modify, and delete CPE domain resources.",
       "E. The cpe_bootstrap_admin account is used by the configuration manager tool to connect to the application server."
     ],
-    "answer": "A,C"
+    "answer": "A,C",
+    "explanation": "https://www.ibm.com/support/knowledgecenter/SSNW2F_5.2.0/com.ibm.p8.security.doc/p8psu003.htm"
   },
   {
     "questionText": "The Content Engine sets a newly created storage area to what resource status?",
@@ -1161,7 +1130,8 @@
       "C. Standby.",
       "D. New Content."
     ],
-    "answer": "A"
+    "answer": "A",
+    "explanation": "https://www.ibm.com/support/knowledgecenter/SSNW2F_5.2.0/com.ibm.p8.ce.admin.tasks.doc/contentstores/cs_auto_resource_status.htm"
   },
   {
     "questionText": "Disaster Recovery (DR) planning includes establishing RPO (Recovery Point Objective) and RTO (Recovery Time Objective) values. What is RTO?",
@@ -1171,7 +1141,8 @@
       "C. The RTO is the amount of time users are switched to DR site before switching back to original PRODUCTION site.",
       "D. The RTO is the amount of time that passes from the time a disaster strikes until data center operations have resumed and recovery is complete."
     ],
-    "answer": "D"
+    "answer": "D",
+    "explanation": "https://www.ibm.com/services/business-continuity/rto"
   },
   {
     "questionText": "Which is the only supported transport protocol for the Content Engine .NET API?",
@@ -1195,34 +1166,26 @@
     "answer": "B,D"
   },
   {
-    "questionText": "Custom Access Roles can be used in Workplace and Workplace XT to control a user access to which of the following?Custom Access Roles can be used in Workplace andWorkplace XT to control a user? access to which of the following?",
+    "questionText": "Custom Access Roles can be used in Workplace and Workplace XT to control a user access to which of the following?",
     "answerOptions": [
       "A. Deny access to certain folders.",
       "B. Access rights to objects stores.",
       "C. Primary Views, My Workplace, and Actions preferences.",
       "D. Security access rights to create folders, documents, and custom objects."
     ],
-    "answer": "C"
+    "answer": "C",
+    "explanation": "https://www.ibm.com/support/knowledgecenter/SSNW2F_5.2.0/com.ibm.p8.doc/ae_help/siteprefs/WcmSitePreferences_PrefAccessRolesInfoPage.htm"
   },
   {
     "questionText": "When creating an Isolated Region, which tool is used to initialize the Isolated Region?",
     "answerOptions": [
       "A. Process Designer.",
       "B. Process Administrator.",
-      "C. FileNet Enterprise Manager.",
+      "C. Administration Console for Content Platform Engine.",
       "D. Process Configuration Console."
     ],
-    "answer": "D"
-  },
-  {
-    "questionText": "Why would you horizontally scale Content Engine in a farm?",
-    "answerOptions": [
-      "A. A farm is required if you have over 500 users.",
-      "B. To support increased workload requirements.",
-      "C. Passive Content Engines will increase user login times.",
-      "D. Multiple application server vendors are supported in a farm."
-    ],
-    "answer": "B"
+    "answer": "C",
+    "explanation": "https://www.ibm.com/support/knowledgecenter/SSNW2F_5.2.0/com.ibm.p8.ce.admin.tasks.doc/bpfad024.htm"
   },
   {
     "questionText": "A company has purchased an IBM FileNet Content Manager system to use as their enterprise content management repository. The system administrator is engaged in the planning phase of the FileNet Content Manager installation.How does the Content Platform Engine leverage directory service providers for authentication?",
@@ -1263,7 +1226,8 @@
       "C. PE Event Logs",
       "D. PE Application Spaces"
     ],
-    "answer": "C"
+    "answer": "C",
+    "explanation": "https://www.ibm.com/support/knowledgecenter/SSNW2F_5.2.0/com.ibm.p8.pe.configui.doc/bpfc057.htm"
   },
   {
     "questionText": "You should always run workflow subscriptions in what mode?",
@@ -1283,7 +1247,8 @@
       "C. Validate if an install is successful.",
       "D. Validate Content Engine data with Process Engine data."
     ],
-    "answer": "B"
+    "answer": "B",
+    "explanation": "https://www.ibm.com/support/knowledgecenter/SSNW2F_5.2.0/com.ibm.p8.ce.admin.tasks.doc/contentstores/cs_ccc_select_file_stores_to_check.htm"
   },
   {
     "answer": "A",
@@ -2026,7 +1991,7 @@
       "A. Replication sweep job ",
       "B. Move content API method ",
       "C. Change class API method ",
-      "D.  Bulk content move sweep job ",
+      "D. Bulk content move sweep job ",
       "E. Content Engine Bulk Import Tool"
     ]
   },
@@ -2065,7 +2030,7 @@
   },
   {
     "answer": "A,D",
-    "questionText": "A development department is submitting XML files to the IBM FikeNet Content Management system for a particular business project. The business users do not want to search for certain elements in the XML documents. What two document requirements must be satisfied in order for an element in an XML document to be filtered and non-searchable?",
+    "questionText": "A development department is submitting XML files to the IBM FileNet Content Management system for a particular business project. The business users do not want to search for certain elements in the XML documents. What two document requirements must be satisfied in order for an element in an XML document to be filtered and non-searchable?",
     "explanation": "https://www.ibm.com/support/knowledgecenter/SSNW2F_5.2.0/com.ibm.p8.ce.admin.tasks.doc/cbr/csscbr_surplusxml_setting.htm",
     "answerOptions": [
       "A. Have a single XML root element. ",
@@ -2084,6 +2049,42 @@
       "B. IBM Content Navigator and IBM FileNet Workplace XT ",
       "C. IBM Content Search Services and IBM Content Navigator ",
       "D. IBM FileNet Rendition Engine and IBM FileNet Case Analyzer"
+    ]
+  },
+  {
+    "answer": "E",
+    "questionText": "Which of the following is NOT true about deployment trees?",
+    "explanation": "https://www.ibm.com/support/knowledgecenter/SSNW2F_5.2.0/com.ibm.p8.common.deploy.doc/deploy_mgr_concepts_deploy_trees.htm",
+    "answerOptions": [
+      "A. You can create an unlimited number of deployment trees",
+      "B. You can move or copy an entire deployment tree structure",
+      "C. You can freely copy environments and pairs from one tree to another, provided you keep associated environments and pairs together.",
+      "D. You can delete a tree at any time if the data is no longer needed.",
+      "E. You can freely rename the individual folders or configuration files that are created by FileNet Deployment Manager from one tree to another, provided you keep associated environments and pairs together."
+    ]
+  },
+  {
+    "answer": "D,E",
+    "questionText": "Which of the following are NOT true about Move File Store wizard?",
+    "explanation": "https://www.ibm.com/support/knowledgecenter/SSNW2F_5.2.0/com.ibm.p8.ce.admin.tasks.doc/contentstores/cs_move_file_store.htm",
+    "answerOptions": [
+      "A. The file storage area is unavailable to users until the operation is complete",
+      "B. The Move File Store wizard does not delete the old file storage area",
+      "C. After the wizard completes, it updates the global configuration database with the new file storage area location",
+      "D. The file storage area is available to users in READ mode while the operation is in progress",
+      "E. Files in the old storage area will be automatically deleted once move operation will be completed"
+    ]
+  },
+  {
+    "answer": "A,B",
+    "questionText": "Component queues make it possible to process a workflow step by using an external entity. Select two available options",
+    "explanation": "https://www.ibm.com/support/knowledgecenter/SSNW2F_5.2.0/com.ibm.p8.pe.configui.doc/bpfc056.htm",
+    "answerOptions": [
+      "A. Java Component",
+      "B. JMS Component",
+      "C. .NET Component",
+      "D. VBScript Component",
+      "E. Custom Component"
     ]
   }
 ]
