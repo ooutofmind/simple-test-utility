@@ -1940,5 +1940,49 @@
       "E. Content Platform Engine server remains fully functional"
     ],
     "explanation": "https://www.ibm.com/support/knowledgecenter/SSNW2F_5.2.0/com.ibm.p8.ce.admin.tasks.doc/aboutem/aem_gcds.htm"
+  },
+  {
+    "answer": "A",
+    "questionText": "Specify the correct sequence to recover the data in P8 domain. 1. Stop the Content Platform Engine application on all Content Platform Engine servers, 2.Stop the application server software that hosts Content Platform Engine on all Content Platform Engine servers, 3.Run consistency checker, 4. Stop all client applications, 5.Stop the IBM Content Search Services service on all IBM Content Search Services servers, 6. Recover GCD and object stores from backup",
+    "answerOptions": [
+      "A. 4-1-2-5-6-3",
+      "B. 1-4-5-2-6-3",
+      "C. 4-2-1-5-6-3",
+      "D. 3-4-1-2-5-6"
+    ],
+    "explanation": "https://www.ibm.com/support/knowledgecenter/SSGLW6_5.2.1/com.ibm.p8.common.admin.doc/backup_restore/backup_enterprise.htm"
+  },
+  {
+    "answer": "C",
+    "questionText": "Where could you find information about Content Search Services server during indexing process?",
+    "answerOptions": [
+      "A. YourCSSfolder\\dashboard\\monitor.csv",
+      "B. YourCSSfolder\\monitor\\server.log",
+      "C. YourCSSfolder\\log\\monitor.csv",
+      "D. YourCSSfolder\\log\\metrics.csv"
+    ],
+    "explanation": "https://www.ibm.com/support/knowledgecenter/SSGLW6_5.2.1/com.ibm.p8.performance.doc/etspf002.htm"
+  },
+  {
+    "answer": "B",
+    "questionText": "What Content Search Services servers configuration do you choose to support high content-based retrieval (CBR) workloads?",
+    "answerOptions": [
+      "A. Switch all CSS servers to IndexAndSearch mode",
+      "B. Set one server to Index mode and the other to Search mode",
+      "C. Set one server to Search mode and the other to Index mode",
+      "D. Set one server to IndexAndSearch mode and the other to Search mode"
+    ],
+    "explanation": "https://www.ibm.com/support/knowledgecenter/SSGLW6_5.2.0/com.ibm.p8.install.doc/p8pin273.htm"
+  },
+  {
+    "answer": "D",
+    "questionText": "What Active Directory Security Identifier attribute is used by the Content Platform Engine for creating Access Control Entries?",
+    "answerOptions": [
+      "A. guID",
+      "B. Nsuniqueid",
+      "C. SID",
+      "D. objectSID"
+    ],
+    "explanation": "https://www.ibm.com/support/knowledgecenter/SSGLW6_5.2.0/com.ibm.p8.security.doc/p8psa051.htm"
   }
 ]
