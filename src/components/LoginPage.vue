@@ -31,7 +31,7 @@
             login: function () {
                 if('V3gaAdmin' === this.userName && 'V3ga123456' === this.password) {
                     localStorage.authInfo = JSON.stringify({
-                        expires: Date.now() + 1000 * 60 * 60 * 60 * 24
+                        expires: Date.now() + 1000 * 60 * 60 * 24
                     });
 
                     this.$emit('authenticated');
