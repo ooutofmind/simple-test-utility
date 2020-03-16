@@ -392,16 +392,6 @@
     "explanation": "https://www.ibm.com/support/knowledgecenter/SSNW2F_5.2.0/com.ibm.p8.install.doc/p8pia020.htm"
   },
   {
-    "questionText": "In which directory on the Content Engine server will you find sample log4j client and server configuration files log4j.properties.and log4j.properties.server?",
-    "answerOptions": [
-      "A. FileNet\\Config.",
-      "B. FileNet\\ContentEngine\\config.",
-      "C. FileNet\\ContentEngine\\samples.",
-      "D. FileNet\\ContentEngine\\config\\samples."
-    ],
-    "answer": "D"
-  },
-  {
     "questionText": "Why is it important for audit processing clients to use audit bookmarks?",
     "answerOptions": [
       "A. To mark important audit records for further investigation.",
