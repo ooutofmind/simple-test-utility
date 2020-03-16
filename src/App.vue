@@ -125,9 +125,9 @@
     }
 
     .outerCard {
-        width: 70%;
+        width: 100%;
         display: inline-block;
-        margin: 5px;
+        margin-bottom: 10px;
     }
 
     .statsOuter {

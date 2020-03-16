@@ -45,8 +45,8 @@
 
 <style>
     #login-panel {
-        margin-left: 33%;
-        margin-right: 33%;
+        width: 300px;
+        display: inline-block;
         border: 1px solid #bbbaba;
         border-radius: 3px;
         padding: 10px;
@@ -58,14 +58,15 @@
     }
 
     #login-panel input {
-        width: 150px;
+        width: 100%;
+        max-width: 150px;
         height: 20px;
         border-radius: 3px;
         border: 1px solid #bbbaba;
     }
 
     #login-panel button {
-        width: 234px;
+        width: 100%;
         height: 26px;
         border-radius: 3px;
         border: 1px solid #bbbaba;
