@@ -54,7 +54,7 @@
     "answer": "C"
   },
   {
-    "questionText": "Which one of the following Content Engine Client&#39;s will have better performance?",
+    "questionText": "Which one of the following Content Engine Client\\'s will have better performance?",
     "answerOptions": [
       "A. CE Client using .NET API.",
       "B. CE Client using COM API.",
@@ -71,7 +71,8 @@
       "C. Object-managed State Security.",
       "D. Application-managed State Security."
     ],
-    "answer": "D"
+    "answer": "D",
+    "explanation": "https://www.ibm.com/support/knowledgecenter/SSNW2F_5.2.0/com.ibm.p8.ce.dev.ce.doc/sec_concepts.htm#sec_concepts__sec_concepts_authorization"
   },
   {
     "questionText": "How can you start and stop P8 components?",
@@ -93,7 +94,7 @@
       "D. IBM FileNet Enterprise Manager"
     ],
     "answer": "C",
-    "explanation": "https://www.ibm.com/support/knowledgecenter/SSNW2F_5.2.0/com.ibm.p8.common.dev.doc/dev_roadmap/tools009.htm"
+    "explanation": "https://www.ibm.com/support/knowledgecenter/SSNW2F_5.2.0/com.ibm.p8.sysoverview.doc/p8sov110.htm"
   },
   {
     "questionText": "Which of the following actions can be performed within the query builder?",
@@ -103,17 +104,8 @@
       "C. Perform content-based retrieval.",
       "D. Save searches in an object store."
     ],
-    "answer": "C"
-  },
-  {
-    "questionText": "Which of the following is a valid reason for moving content into an encrypted storage area?",
-    "answerOptions": [
-      "A. To encrypt content that is currently unencrypted.",
-      "B. To re-encrypt currently encrypted content using a custom key.",
-      "C. To force encryption of existing unencrypted content already in the target storage area.",
-      "D. To improve access performance by moving content to a storage area that has fewer encryption keys."
-    ],
-    "answer": "A"
+    "answer": "C",
+    "explanation": "https://www.ibm.com/support/knowledgecenter/SSNW2F_5.2.0/com.ibm.p8.ce.admin.doc/searchandbulkops/sb_query_builder.htm"
   },
   {
     "questionText": "Content Search Services Client files are installed on which of the following P8 servers?",
@@ -133,7 +125,8 @@
       "C. GCD and objectstore database names, database user accounts and passwords, data source names.",
       "D. GCD and objectstore database names, database port numbers, database user accounts and passwords."
     ],
-    "answer": "D"
+    "answer": "D",
+    "explanation": "https://www.ibm.com/support/knowledgecenter/SSNW2F_5.2.0/com.ibm.p8.planprepare.doc/p8ppi084.htm"
   },
   {
     "questionText": "Which P8 engine delegates authentication tasks to the Content Engine?",
@@ -167,14 +160,15 @@
     "explanation": "https://www.ibm.com/support/knowledgecenter/SSNW2F_5.2.0/com.ibm.p8.ce.admin.tasks.doc/cbr/csscbr_partition_configuring.htm"
   },
   {
-    "questionText": "When using the FileNet Enterprise Manager import manifest function, the \"Retry FailedImports\" option handles which one of the following situations?",
+    "questionText": "When using the FileNet Enterprise Manager import manifest function, the \"Retry Failed Imports\" option handles which one of the following situations?",
     "answerOptions": [
       "A. A transient error has occurred, and the importer will continue trying until the import is successful.",
       "B. The import of an object has failed, so the importer will create the object with as much information as it has, then log an error.",
       "C. The import of an object failed, so the importer will suspend itself while it searches for another definition of the object in another export XML file.",
       "D. Object A has a dependency on Object B, but Object B appears after Object A in the export XML file, and the importer will resolve the error when Object B is encountered."
     ],
-    "answer": "D"
+    "answer": "D",
+    "explanation": "https://www.ibm.com/support/knowledgecenter/SSNW2F_5.2.0/com.ibm.p8.ce.admin.tasks.doc/exportingimporting/ei_import_options_import_helper.htm"
   },
   {
     "questionText": "What are the two types of transport protocols supported by the Content Engine? (choose two.)",
@@ -195,7 +189,8 @@
       "C. Application server account.",
       "D. Operating system account."
     ],
-    "answer": "B"
+    "answer": "B",
+    "explanation": "https://www.ibm.com/support/knowledgecenter/SSNW2F_5.2.0/com.ibm.p8.security.doc/p8psu003.htm"
   },
   {
     "questionText": "Which of the following assets CANNOT be exported or imported by FileNet Deployment Manager?",
@@ -238,7 +233,8 @@
       "C. Object stores, storage areas and fixed content devices.",
       "D. Storage areas, content cache areas and virtual servers."
     ],
-    "answer": "D"
+    "answer": "D",
+    "explanation": "https://www.ibm.com/support/knowledgecenter/SSNW2F_5.2.0/com.ibm.p8.ce.admin.tasks.doc/aboutem/aem_sites.htm"
   },
   {
     "questionText": "Which of the following is NOT a step in the FileNet Deployment Manager deployment process?",
@@ -248,7 +244,8 @@
       "C. Update an export manifest.",
       "D. Create a property hash table."
     ],
-    "answer": "D"
+    "answer": "D",
+    "explanation": "https://www.ibm.com/support/knowledgecenter/SSNW2F_5.2.0/com.ibm.p8.common.deploy.doc/overview_intro.htm"
   },
   {
     "questionText": "P8 Content Federation Services (CFS) natively supports which two of the following configurations for federation? (choose two):",
@@ -292,17 +289,19 @@
       "C. Using Web Service Interoperability (WSI) protocol for a specific node.",
       "D. Using EJB protocol for multiple nodes (e.g. corbaloc URL for WebSphere)."
     ],
-    "answer": "C"
+    "answer": "C",
+    "explanation": "https://www.ibm.com/support/knowledgecenter/SSNW2F_5.2.0/com.ibm.p8.sysoverview.doc/p8phx007.htm"
   },
   {
-    "questionText": "What P8 domain level entity allows specific meta data attributes to be identified that control the effective access of an object in conjunction with the object&#39;s Access Control List (ACL)?",
+    "questionText": "What P8 domain level entity allows specific meta data attributes to be identified that control the effective access of an object in conjunction with the object\\'s Access Control List (ACL)?",
     "answerOptions": [
       "A. Marking sets.",
       "B. Storage area.",
       "C. Add-on feature.",
       "D. Security inheritance."
     ],
-    "answer": "A"
+    "answer": "A",
+    "explanation": "https://www.ibm.com/support/knowledgecenter/SSNW2F_5.2.0/com.ibm.p8.security.doc/p8psa058.htm"
   },
   {
     "questionText": "When the Content Engine launches a workflow, it needs to communicate with which component?",
@@ -436,26 +435,6 @@
     "explanation": "https://www.ibm.com/support/knowledgecenter/SSNW2F_5.2.0/com.ibm.p8.xt.user.doc/ae_help/siteprefs/WcmSitePreferences_PrefAccessRolesInfoPage.htm"
   },
   {
-    "questionText": "Workplace XT hosts and manages a component that enables the Process Engine to make calls on external components. What is this component called?",
-    "answerOptions": [
-      "A. PEOperations",
-      "B. Process Adaptor",
-      "C. Component Manager",
-      "D. Process Administrator"
-    ],
-    "answer": "C"
-  },
-  {
-    "questionText": "Which of the following is NOT reported to IBM FileNet Dashboard?",
-    "answerOptions": [
-      "A. Remote procedure call counts and durations.",
-      "B. Number of documents stored in the Content Engine.",
-      "C. System specifications, operating system version, and product version.",
-      "D. Real-time graphing of performance data, including CPU load and memory utilization."
-    ],
-    "answer": "B"
-  },
-  {
     "questionText": "To verify a file storage area, you log onto the machine where the Content Engine Server is installed and examine the contents of the file storage area directory. This directory should contain which of the following objects?",
     "answerOptions": [
       "A. Two subdirectories -- content and inbound",
@@ -477,14 +456,15 @@
     "explanation": "https://www.ibm.com/support/knowledgecenter/SSNW2F_5.2.0/com.ibm.p8.ce.dev.net.doc/P_FileNet_Api_Core_IObjectStore_ObjectSecurityCacheEntryTTL.htm"
   },
   {
-    "questionText": "If the following tree in a nested choice list is selected (Branch1 -&gt; Branch2 -&gt; Branch3 -&gt;Branch4), what is stored as the value: (assume the values below represent the actual values of the selections, not just the display value)?",
+    "questionText": "If the following tree in a nested choice list is selected (Branch1->Branch2->Branch3->Branch4), what is stored as the value: (assume the values below represent the actual values of the selections, not just the display value)?",
     "answerOptions": [
       "A. Branch4",
       "B. Branch3->Branch4",
       "C. Branch2->Branch3->Branch4",
       "D. Branch1->Branch2->Branch3->Branch4"
     ],
-    "answer": "A"
+    "answer": "A",
+    "explanation": "https://www.ibm.com/support/knowledgecenter/SSNW2F_5.2.0/com.ibm.p8.ce.admin.tasks.doc/choicelists/chl_concepts_choice_lists.htm"
   },
   {
     "questionText": "Which two of the following indicators are only defined in a property template? (choose two.)",
@@ -519,17 +499,19 @@
       "D. Can be an encrypted NTFS volume.",
       "E. Only a one-to-one relationship with a Content Engine server."
     ],
-    "answer": "B,C"
+    "answer": "B,C",
+    "explanation": "https://www.ibm.com/support/knowledgecenter/SSNW2F_5.2.0/com.ibm.p8.sysoverview.doc/p8sov014.htm"
   },
   {
-    "questionText": "Which user account is used by the Content Engine to establish a connection with the application server, access the application server&#39;s Java Naming and Directory Interface(JNDI) tree, look up the data sources for accessing the GCD, and start up Content Engine's background tasks?",
+    "questionText": "Which user account is used by the Content Engine to establish a connection with the application server, access the application server\\'s Java Naming and Directory Interface(JNDI) tree, look up the data sources for accessing the GCD, and start up Content Engine's background tasks?",
     "answerOptions": [
       "A. GCD administrator account (gcd_admin).",
       "B. Content Engine bootstrap account (ce_bootstrap_admin).",
       "C. Content Engine operating system user account (ce_os_user).",
       "D. Application server administrative console user (appserver_console_user)."
     ],
-    "answer": "B"
+    "answer": "B",
+    "explanation": "https://www.ibm.com/support/knowledgecenter/SSNW2F_5.2.0/com.ibm.p8.security.doc/p8psu003.htm"
   },
   {
     "questionText": "Which Content Engine table is used to query audit records?",
@@ -541,16 +523,6 @@
     ],
     "answer": "A",
     "explanation": "https://www.ibm.com/support/knowledgecenter/SSNW2F_5.2.0/com.ibm.p8.performance.doc/p8ppt182.htm"
-  },
-  {
-    "questionText": "For a current production environment of Content Engine 4.5.1 and Process Engine 4.5.1 and a staged upgrade for only the Process Engine to 5.1 (Content Engine remains at4.5.1), which of the following P8 clients will have to be installed as part of the upgrade process?",
-    "answerOptions": [
-      "A. Content Engine Client 5.1",
-      "B. Process Engine Client 5.1",
-      "C. Content Engine Client 4.5.1",
-      "D. Process Engine Client 4.5.1"
-    ],
-    "answer": "B"
   },
   {
     "questionText": "Which two of the following resource statuses can an offline storage area have?",
@@ -605,7 +577,8 @@
       "C. Boolean",
       "D. DateTime"
     ],
-    "answer": "B"
+    "answer": "B",
+    "explanation": "https://www.ibm.com/support/knowledgecenter/SSNW2F_5.2.0/com.ibm.p8.ce.dev.net.doc/T_FileNet_Api_Constants_ChoiceType.htm"
   },
   {
     "questionText": "When you delete a storage area, which of the following two conditions apply? (choose two.)",
@@ -682,16 +655,6 @@
       "D. Java API over Internet Inter Operable Protocol (IIOP)."
     ],
     "answer": "C"
-  },
-  {
-    "questionText": "Which of the following identifies all of the available source-destination pair data maps?",
-    "answerOptions": [
-      "A. Property map, service map and user security map.",
-      "B. Domain map, property map and user security map.",
-      "C. Domain map, object store map and security principal map.",
-      "D. Object store map, security principal map and service map."
-    ],
-    "answer": "D"
   },
   {
     "questionText": "An object valued property can be used to enforce which two of the following? (choose two.)",
@@ -807,7 +770,8 @@
       "C. <WebSphere_profile>/logs/<server-name>/p8_server_trace.log.",
       "D. <WebSphere_profile>/FileNet/<server-name>/p8_server_trace.log."
     ],
-    "answer": "D"
+    "answer": "D",
+    "explanation": "https://www.ibm.com/support/knowledgecenter/SSNW2F_5.2.0/com.ibm.p8.install.doc/p8pup703.htm"
   },
   {
     "questionText": "Document entry templates allow the designer to force values for which of the following items?",
@@ -909,16 +873,6 @@
     "explanation": "https://www.ibm.com/support/knowledgecenter/SSNW2F_5.2.0/com.ibm.p8.ce.dev.ce.doc/query_concepts.htm#query_concepts__Stored_Searches"
   },
   {
-    "questionText": "What type of object represents the discrete set of possible values that a property object can hold?",
-    "answerOptions": [
-      "A. Pick list.",
-      "B. Choice list.",
-      "C. Access control list.",
-      "D. Controlled value list."
-    ],
-    "answer": "B"
-  },
-  {
     "questionText": "When an access control list of an object is modified, which type of security is computed when the object is next accessed?",
     "answerOptions": [
       "A. Direct.",
@@ -946,7 +900,8 @@
       "C. Security Template.",
       "D. Security Proxy Type."
     ],
-    "answer": "D"
+    "answer": "D",
+    "explanation": "https://www.ibm.com/support/knowledgecenter/SSNW2F_5.2.0/com.ibm.p8.security.doc/p8psa074.htm"
   },
   {
     "questionText": "A Content Search Services index is associated with which Content Engine object?",
@@ -977,7 +932,8 @@
       "C. Using a hardware load balancer.",
       "D. Using a native Application Server load balancing software."
     ],
-    "answer": "D"
+    "answer": "D",
+    "explanation": "https://www.ibm.com/support/knowledgecenter/SSNW2F_5.2.0/com.ibm.p8.sysoverview.doc/p8phx007.htm"
   },
   {
     "questionText": "What are the two ways to enable Content Engine Java API log4j tracing for a client application? (choose two.)",
@@ -1089,7 +1045,8 @@
       "D. Simple",
       "E. Advanced"
     ],
-    "answer": "A,D"
+    "answer": "A,D",
+    "explanation": "https://www.ibm.com/support/knowledgecenter/SSNW2F_5.2.0/com.ibm.p8.ce.admin.doc/searchandbulkops/sb_query_builder.htm"
   },
   {
     "questionText": "Before updating a Content Engine and process Engine with a fix pack, how will you verify the supported product versions?",
@@ -1099,7 +1056,8 @@
       "C. All fix packs are supported on any product versions.",
       "D. No need to verify anything, always use latest version."
     ],
-    "answer": "B"
+    "answer": "B",
+    "explanation": "https://www.ibm.com/support/knowledgecenter/SSNW2F_5.2.0/com.ibm.p8.installingcfs.doc/cfsin003.htm"
   },
   {
     "questionText": "What contains a record of specific system or workflow related events that are useful for tracking workflow activity?",
@@ -1363,17 +1321,6 @@
       "B. Application Engine  ",
       "C. IBM Content Navigator ",
       "D. IBM Enterprise Records"
-    ]
-  },
-  {
-    "answer": "D",
-    "questionText": "For a new Content Platform Engine Server, what tasks must be completed by a database administrator prior to installing and configuring the Content Platform Engine software?",
-    "explanation": "https://www.ibm.com/support/knowledgecenter/SSNW2F_5.2.0/com.ibm.p8.planprepare.doc/p8ppi084.htm",
-    "answerOptions": [
-      "A. Create the GCD and object store databases. ",
-      "B. Create the GCD and object store database user accounts. ",
-      "C. Create the GCD, object store databases and database user accounts. ",
-      "D. Create the GCD, object store databases, data sources and database user accounts."
     ]
   },
   {
