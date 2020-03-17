@@ -1974,5 +1974,16 @@
       "D. objectSID"
     ],
     "explanation": "https://www.ibm.com/support/knowledgecenter/SSGLW6_5.2.0/com.ibm.p8.security.doc/p8psa051.htm"
+  },
+  {
+    "answer": "A",
+    "questionText": "What should you do to save JDBC Data Source password while editing Configure GCD JDBC Data Sources task in Configuration Manager?",
+    "answerOptions": [
+      "A. Go to Window > Preferences and select \"Save all passwords to file when saving a task or profile\"",
+      "B. Select \"Save all passwords to file\" when on a task or profile page",
+      "C. Passwords cannot be saved to file due to security restrictions",
+      "D. Nothing. Passwords will be saved to file by default"
+    ],
+    "explanation": "https://www.ibm.com/support/knowledgecenter/SSNW2F_5.2.0/com.ibm.p8.install.doc/p8pia043.htm"
   }
 ]
